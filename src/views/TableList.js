@@ -39,7 +39,7 @@ function Tables() {
                 <CardTitle tag="h4">
                   <div className="d-flex justify-content-between">
                     <h4>Car Table</h4>
-                    <button className="btn btn-info" style={{"cursor" : "pointer"}}>Add Product</button>
+                    <button className="btn btn-info" style={{ "cursor": "pointer" }}>Add Product</button>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -47,153 +47,189 @@ function Tables() {
                 <Table className="tablesorter" responsive>
                   <thead className="text-primary">
                     <tr>
+                      <th>ID</th>
                       <th>Make</th>
                       <th>Model</th>
                       <th>Color </th>
                       <th>Year</th>
-                      <th className="text-center">Price</th>
+                      <th>Price</th>
+                      <th style={{ 'width': '200px' }}>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                     <tr>
+                      <th>1</th>
                       <td>BMW</td>
                       <td>M5</td>
                       <td>Black</td>
                       <td>2021</td>
-                      <td className="text-center">$106,738</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>BMW</td>
+                      <td>M5</td>
+                      <td>Black</td>
+                      <td>2021</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>BMW</td>
+                      <td>M5</td>
+                      <td>Black</td>
+                      <td>2021</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>BMW</td>
+                      <td>M5</td>
+                      <td>Black</td>
+                      <td>2021</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>BMW</td>
+                      <td>M5</td>
+                      <td>Black</td>
+                      <td>2021</td>
+                      <td>$106,738</td>
+                      <td style={{ 'width': '200px' }}>
+                        <button type="button" className="btn btn-info btn-sm mr-1">Update</button>
+                        <button type="button" className="btn btn-sm">Delete</button>
+                      </td>
                     </tr>
                   </tbody>
                 </Table>
               </CardBody>
             </Card>
           </Col>
-          {/* <Col md="12">
-            <Card className="card-plain">
-              <CardHeader>
-                <CardTitle tag="h4">Table on Plain Background</CardTitle>
-                <p className="category">Here is a subtitle for this table</p>
-              </CardHeader>
-              <CardBody>
-                <Table className="tablesorter" responsive>
-                  <thead className="text-primary">
-                    <tr>
-                      <th>Name</th>
-                      <th>Country</th>
-                      <th>City</th>
-                      <th className="text-center">Salary</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Dakota Rice</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
-                      <td className="text-center">$36,738</td>
-                    </tr>
-                    <tr>
-                      <td>Minerva Hooper</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
-                      <td className="text-center">$23,789</td>
-                    </tr>
-                    <tr>
-                      <td>Sage Rodriguez</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
-                      <td className="text-center">$56,142</td>
-                    </tr>
-                    <tr>
-                      <td>Philip Chaney</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
-                      <td className="text-center">$38,735</td>
-                    </tr>
-                    <tr>
-                      <td>Doris Greene</td>
-                      <td>Malawi</td>
-                      <td>Feldkirchen in Kärnten</td>
-                      <td className="text-center">$63,542</td>
-                    </tr>
-                    <tr>
-                      <td>Mason Porter</td>
-                      <td>Chile</td>
-                      <td>Gloucester</td>
-                      <td className="text-center">$78,615</td>
-                    </tr>
-                    <tr>
-                      <td>Jon Porter</td>
-                      <td>Portugal</td>
-                      <td>Gloucester</td>
-                      <td className="text-center">$98,615</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </CardBody>
-            </Card>
-          </Col> */}
         </Row>
       </div>
     </>

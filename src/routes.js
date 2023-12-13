@@ -5,6 +5,8 @@ import UserProfile from "views/UserProfile.js";
 import UserList from "views/UserList";
 import Product from "views/Product";
 import Icons from "views/Icons";
+import Order from "views/Order";
+import Report from "views/Report";
 
 var routes = [
   {
@@ -32,14 +34,14 @@ var routes = [
     path: "/order",
     name: "Order",
     icon: "fa-solid fa-cart-plus",
-    component: <Product />,
+    component: <Order />,
     layout: "/admin",
   },
   {
     path: "/report",
     name: "Report",
     icon: "fa-solid fa-chart-pie",
-    component: <Product />,
+    component: <Report />,
     layout: "/admin",
   },
   // {

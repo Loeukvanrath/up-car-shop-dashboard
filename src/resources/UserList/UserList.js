@@ -5,7 +5,8 @@ export const _userList = [
         phoneNumber: "+8551234XXXX",
         gender: "M",
         role: "super admin",
-        createdAt: "10/12/2023"
+        createdAt: "10/12/2023",
+        status: "Active"
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ export const _userList = [
         phoneNumber: "+8551234XXXX",
         gender: "M",
         role: "consomer",
-        createdAt: "11/12/2023"
+        createdAt: "11/12/2023",
+        status: "Deactive"
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ export const _userList = [
         phoneNumber: "+8551234XXXX",
         gender: "M",
         role: "Cconsomer",
-        createdAt: "12/12/2023"
+        createdAt: "12/12/2023",
+        status: "Active"
     },
     {
         id: 4,
@@ -29,6 +32,7 @@ export const _userList = [
         phoneNumber: "+8551234XXXX",
         gender: "M",
         role: "admin",
-        createdAt: "13/12/2023"
+        createdAt: "13/12/2023",
+        status: "Active"
     },
 ]
